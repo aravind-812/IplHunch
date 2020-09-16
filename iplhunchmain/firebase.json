@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "iplhunchmain",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
