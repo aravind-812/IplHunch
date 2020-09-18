@@ -131,11 +131,11 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 600;
   letter-spacing: 1px;
-  font-family: 'Open Sans';
+  font-family: 'Oswald';
 }
 
 #header .logo a {
-  color: #2d405f;
+  color: #ffffff;
 }
 
 #header .logo img {
@@ -168,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
   transition: 0.3s;
   font-size: 14px;
-  font-family: "Krub", sans-serif;
+  font-family: 'Roboto';
   font-weight: 600;
 }
 
@@ -800,7 +800,7 @@ a {
     min-width: 250px;
     padding: 1.5rem;
     border-radius: 16px;
-    background:linear-gradient(to right, #29323c, #485563);
+    background:linear-gradient(to right, #141E30, #243B55);
     box-shadow: -1rem 0 3rem #000;
     display: flex;
     flex-direction: column;
@@ -809,6 +809,8 @@ a {
     scroll-snap-align: start;
     clear: both;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card:focus-within~.card, .card:hover~.card {
@@ -826,6 +828,7 @@ a {
 
 .card-header {
     margin-bottom: auto;
+    text-align: center;
 }
 
 .card-header p {
@@ -838,6 +841,7 @@ a {
     font-size: 20px;
     margin: .25rem 0 auto;
     text-decoration: none;
+    text-align: center;
     color: inherit;
     border: 0;
     display: inline-block;
@@ -875,7 +879,7 @@ a {
     filter: grayscale(0%);
     display: block;
     overflow: hidden;
-    margin: 16px 10px;
+    margin: -5px 54px;
 }
 
 
@@ -883,12 +887,14 @@ a {
 .author-name {
     grid-area: auto;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .author-name-prefix {
     font-style: normal;
     font-weight: 700;
     color: #7a7a8c;
+    text-align: center;
 }
 
 .half-circle {
@@ -902,6 +908,8 @@ a {
     stroke-width: 8;
     stroke-linecap: round;
     pointer-events: none;
+    margin-left: 13%;
+    margin-right: auto;
 }
 
 .tags {
@@ -1342,7 +1350,7 @@ a {
 /*--------------------------------------------------------------
 # animo section
 --------------------------------------------------------------*/
-.animo {
+:root {
   --size: 400px;
   --blue: #000000;
   --lb: rgba(0, 0, 0, 0.5);
@@ -1401,7 +1409,7 @@ a {
   background-position: center;
   background-color: #aace29;
 }
- h4,
+ .animo h4,
 ul,
 span {
   padding: 0;
@@ -1409,7 +1417,7 @@ span {
 }
 .animo.size,
 .color {
-  grid-column: 1;
+  grid-column: 0;
   grid-row: 1;
   justify-self: center;
   z-index: 1;
@@ -1505,7 +1513,12 @@ span {
 #prediction section
 -------------------------------------------------*/
 
-
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
