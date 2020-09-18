@@ -6,6 +6,8 @@
 */
 !(function($) {
   "use strict";
+  //////////////////////////
+  
 
   // Preloader
   $(window).on('load', function() {
@@ -48,6 +50,8 @@
       }
     }
   });
+  ////////////////////////////////////
+
 
   // Activate smooth scroll on page load with hash links in the url
   $(document).ready(function() {
