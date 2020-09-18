@@ -1397,14 +1397,14 @@ a {
 }
 .shoeImg {
   background-image: url(../img/mi.png);
-  background-size: 70%;
+  background-size: 55%;
   background-repeat: no-repeat;
   background-position: center;
   background-color: #148bff;
 }
 .shirtImg {
-  background-image: url(../img/-1.png);
-  background-size: 70%;
+  background-image: url(../img/csk.png);
+  background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
   background-color: #aace29;
@@ -1427,6 +1427,7 @@ span {
 .size ul li,
 .color ul li {
   list-style: none;
+  font-style: italic;
   width: 20px;
   height: 20px;
   margin: 5px;
