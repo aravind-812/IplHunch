@@ -799,7 +799,7 @@ a {
     width: 400px;
     min-width: 250px;
     padding: 1.5rem;
-    border-radius: 16px;
+    border-radius: 21px;
     background:linear-gradient(to right, #141E30, #243B55);
     box-shadow: -1rem 0 3rem #000;
     display: flex;
@@ -858,9 +858,9 @@ a {
 
 .card-author {
     
-    margin: 3rem 0 0;
+    margin: 5.5rem 0 0;
     display: grid;
-    grid-template-columns: 75px 1fr;
+    grid-template-columns: 0px 1fr;
     align-items: center;
     position: relative;
 }
