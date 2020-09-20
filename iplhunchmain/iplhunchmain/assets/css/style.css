@@ -1431,7 +1431,8 @@ span {
 @media screen and (max-width: 600px){
   .column img{
     
-  width: 85%;
+  width: 90%;
+  height: max-content;
   
 }
 }
