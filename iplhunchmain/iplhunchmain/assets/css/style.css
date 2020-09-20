@@ -884,7 +884,12 @@ a {
     
 }
 
-
+.TodayMatchPred {
+  text-align: center;
+  color: #2d405f;
+  font-size: 32px;
+  font-weight: bold;
+}
 
 
 .author-name {
