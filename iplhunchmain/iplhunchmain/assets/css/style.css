@@ -397,12 +397,16 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: #000000;
   border-bottom: 2px solid #000000;
-  background-image : url('../img/HUNCH\ \(3\).png');
-  background-repeat: no-repeat;
+  
   background-position: right;
   background-size: 75%;
   text-align: center;
 }
+@media (max-width: 600px) {
+  .splash {
+    
+    width: 100%;
+  }
 
 #hero .container {
   padding-top: 70px;
