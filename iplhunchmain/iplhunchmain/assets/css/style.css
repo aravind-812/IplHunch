@@ -1423,6 +1423,12 @@ span {
   padding: 1px;
   height: 40px;
 }
+.column1 {
+  float: left;
+  width: 10%;
+  padding: 1px;
+  height: 40px;
+}
 .row:after {
   content: "";
   display: table;
