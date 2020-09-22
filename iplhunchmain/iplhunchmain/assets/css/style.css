@@ -1425,7 +1425,11 @@ span {
 }
 .column1 {
   float: left;
+<<<<<<< HEAD
   width: 50%;
+=======
+  width: 10%;
+>>>>>>> 19101c1579d05a15278adeb2202b331aceaa9243
   padding: 1px;
   height: 40px;
 }
