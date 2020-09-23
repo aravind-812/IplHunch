@@ -514,8 +514,9 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
- 
-  background-size: 50%;
+  background: #000000;
+  border-radius: 20px;
+  background-size: cover;
   padding: 60px 0;
   position: relative;
   color: #fff;
@@ -761,8 +762,9 @@ section {
 body {
     padding: 0;
     margin: 0;
-    background-color: #000000;
-    background-image : url('../img/HUNCH\ \(11\)\ 1.svg');
+    background-color: #000000
+;
+    
     background-repeat: no-repeat;
     color: #fff;
     font-family: 'Ubuntu', monospace;
