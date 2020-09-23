@@ -514,9 +514,8 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: #000000;
-  border-radius: 20px;
-  background-size: cover;
+ 
+  background-size: 50%;
   padding: 60px 0;
   position: relative;
   color: #fff;
@@ -762,8 +761,7 @@ section {
 body {
     padding: 0;
     margin: 0;
-    background-color: #000000
-    ;
+    background-color: #000000;
     background-image : url('../img/HUNCH\ \(11\)\ 1.svg');
     background-repeat: no-repeat;
     color: #fff;
@@ -1292,19 +1290,19 @@ a {
   transition: all 0.7s cubic-bezier(0.895, 0.03, 0.685, 0.22);
 }
 .shoeImg {
-  background-image: url(../img/rr.png);
+  background-image: url(../img/kkr.png);
   background-size: 55%;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #3915d8 ;
+  background-color: #570063 ;
   
 }
 .shirtImg {
-  background-image: url(../img/csk.png);
+  background-image: url(../img/mi.png);
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #e5ff00;
+  background-color: #003cff;
 }
  .animo h4,
 ul,
@@ -1439,15 +1437,15 @@ span {
 @media screen and (max-width: 600px){
   .column img{
     
-  width: 100%;
-  height: 200%;
+  width: 120%;
+  height: 250%;
   
 }
 }
 @media screen and (max-width: 600px){
   .column1 img{
     
-  width: 100%;
+  width: 80%;
   height: 200%;
   
 }
