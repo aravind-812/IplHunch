@@ -1292,19 +1292,19 @@ a {
   transition: all 0.7s cubic-bezier(0.895, 0.03, 0.685, 0.22);
 }
 .shoeImg {
-  background-image: url(../img/kkr.png);
+  background-image: url(../img/rcb1.png);
   background-size: 55%;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #570063 ;
+  background-color: #f30101 ;
   
 }
 .shirtImg {
-  background-image: url(../img/mi.png);
+  background-image: url(../img/kxipf.png);
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #003cff;
+  background-color: #ff0000;
 }
  .animo h4,
 ul,
@@ -1439,8 +1439,8 @@ span {
 @media screen and (max-width: 600px){
   .column img{
     
-  width: 120%;
-  height: 250%;
+  width: 80%;
+  height: 200%;
   
 }
 }
