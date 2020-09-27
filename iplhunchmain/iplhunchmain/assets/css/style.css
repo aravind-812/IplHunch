@@ -146,6 +146,7 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
+
 .nav-menu ul {
   margin: 0;
   padding: 0;
@@ -460,6 +461,10 @@ h1, h2, h3, h4, h5, h6 {
   }
   #hero .hero-img {
     max-width: 90%;
+  }
+  #hero{
+    background-position: center;
+    background-size: 300%;
   }
 }
 /*--------------------------------------------------------------
@@ -1445,19 +1450,19 @@ body{
   transition: all 0.7s cubic-bezier(0.895, 0.03, 0.685, 0.22);
 }
 .shoeImg {
-  background-image: url(../img/kkr.png);
+  background-image: url(../img/rr.png);
   background-size: 55%;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #880094 ;
+  background-color: #2b00ff ;
   
 }
 .shirtImg {
-  background-image: url(../img/SRH.png);
+  background-image: url(../img/KXIP.png);
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #ff7b00;
+  background-color: #ff0000;
 }
  .animo h4,
 ul,
@@ -1625,15 +1630,15 @@ span {
 }
 
 @media screen and (max-width: 600px){
-  .column img{
+  .column2 img{
     
-  width: 125%;
-  height: 255%;
+  width: 100%;
+  height: 200%;
   
 }
 }
 @media screen and (max-width: 600px){
-  .column1 img{
+  .column3 img{
     
   width: 100%;
   height: 200%;
@@ -1645,7 +1650,7 @@ span {
 --------------------------------------------------------------*/
 .faq {
   padding: 60px 0;
-  background-image: url(../img/ball.png);
+  
   background-repeat: no-repeat;
   background-position: center;
 }
