@@ -1450,19 +1450,19 @@ body{
   transition: all 0.7s cubic-bezier(0.895, 0.03, 0.685, 0.22);
 }
 .shoeImg {
-  background-image: url(../img/rr.png);
+  background-image: url(../img/RCB.png);
   background-size: 55%;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #2b00ff ;
+  background-color:  #ff0000 ;
   
 }
 .shirtImg {
-  background-image: url(../img/KXIP.png);
+  background-image: url(../img/mif.png);
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #ff0000;
+  background-color:#2b00ff;
 }
  .animo h4,
 ul,
