@@ -82,6 +82,10 @@
   </div></noscript>
 <body>
 
+  <div class="loader_bg">
+    <div class="loader"></div>
+  </div>
+
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
@@ -137,17 +141,17 @@
           <section class="card-list">
             <article class="card">
               <header class="card-header">
-                <p>September  30th  2020</p>
-                <h2 class="vsTag">RR    V/S   KKR</h2>
+                <p>October  1st  2020</p>
+                <h2 class="vsTag">KXIP    V/S   MI</h2>
   
               </header>
               <div class="row">
                 <div class="column2">
-                  <img src="assets/img/kkr.png" alt="Snow">
+                  <img src="assets/img/kxipf.png" alt="Snow">
                 </div>
                 
                 <div class="column3">
-                  <img src="assets/img/rajasthanroyals.png" alt="Forest">
+                  <img src="assets/img/mi.png" alt="Forest">
                 </div>
                
               </div>
@@ -162,8 +166,8 @@
                 </svg>
       
                 <div class="author-name">
-                  <div class="author-name-prefix">Kolkatha knight riders</div>
-                  Winning Probability 54.69%
+                  <div class="author-name-prefix">Mumbai Indians</div>
+                  Winning Probability 63.65%
                   
                 </div>
               </div>
@@ -177,6 +181,41 @@
         
         <h2 class="TodayMatchPred">Previous Match Prediction</h2>
         <section class="card-list">
+
+          <article class="card">
+            <header class="card-header">
+              <p>September  30th  2020</p>
+              <h2 class="vsTag">RR    V/S   KKR</h2>
+
+            </header>
+            <div class="row">
+              <div class="column2">
+                <img src="assets/img/kkr.png" alt="Snow">
+              </div>
+              
+              <div class="column3">
+                <img src="assets/img/rajasthanroyals.png" alt="Forest">
+              </div>
+             
+            </div>
+            
+    
+            <div class="card-author">
+              <a class="author-avatar" href="#">
+                
+              </a>
+              <svg class="half-circle" viewBox="0 0 106 57">
+                <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+              </svg>
+    
+              <div class="author-name">
+                <div class="author-name-prefix"></div>
+                Predicted Winner :KKR(56.64%)
+                Actual Winner: KKR
+                
+              </div>
+            </div>
+          </article>
           <article class="card">
             <header class="card-header">
               <p>September  29th  2020</p>
@@ -785,9 +824,9 @@
           STATS
         </div>
         <div class="size shoeSize">
-          <h4>RAJASTHAN ROYALS </h4>
+          <h4>KINGS IX PUNJAB </h4>
           <ul>
-            <li>Captain:Steve_smith</li>
+            <li>Captain:K.L.Rahul</li>
             <li>Toss:</li>
             <li>Ground:Abu_dhabi</li>
           </ul>
@@ -812,9 +851,9 @@
           STATS
         </div>
         <div class="size shirtSize">
-          <h4>KOLKATHA KNIGHT RIDERS</h4>
+          <h4>MUMBAI INDIANS</h4>
           <ul>
-            <li>Captain:Dinesh_karthik</li>
+            <li>Captain:Rohit_sharma</li>
             <li>Toss:</li>
             <li>Ground:Abu_Dhabi</li>
           </ul>
@@ -912,13 +951,8 @@
           &copy; Copyright <strong><span>IPLHUNCH</span></strong>. All Rights Reserved
        
 
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-  <div class="sk-folding-cube">
-    <div class="sk-cube1 sk-cube"></div>
-    <div class="sk-cube2 sk-cube"></div>
-    <div class="sk-cube4 sk-cube"></div>
-    <div class="sk-cube3 sk-cube"></div>
-  </div>
+  
+  
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
@@ -929,6 +963,12 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/venobox/venobox.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      setTimeout(function(){
+        $('.loader_bg').fadeToggle();
+      },1500);
+    </script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
