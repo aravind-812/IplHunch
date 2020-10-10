@@ -533,7 +533,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: linear-gradient(0deg,#fff -27.38%,#dde7e8);
+  background: #000000;
   -webkit-transform: skew(0deg ,-9deg);
   transform: skew(0deg ,-9deg);
   border-radius: 0px;
@@ -606,6 +606,8 @@ section {
     text-align: center;
   }
 }
+
+
 
 
 
@@ -1164,8 +1166,7 @@ body{
 --------------------------------------------------------------*/
 .faq {
   padding: 60px 0;
-  -webkit-transform: skew(0deg ,-9deg);
-  transform: skew(0deg ,-9deg);
+  
   background-repeat: no-repeat;
   background-position: center;
 }
