@@ -46,8 +46,8 @@ h1, h2, h3, h4, h5, h6 {
   height: 40px;
   border-radius: 5px;
   background: #ccff00;
-  -webkit-transform: skew(0deg ,-9deg);
-  transform: skew(0deg ,-9deg);
+/*  -webkit-transform: skew(0deg ,-9deg); 
+  transform: skew(0deg ,-9deg);*/
   color: #000000;
   transition: all 0.4s;
 }
@@ -400,11 +400,11 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: #ccff00;
+  background: #00000000;
   -webkit-transform: skew(0deg ,-9deg);
   transform: skew(0deg ,-9deg);
   
-  background-image: url(../img/giffinal.gif);
+  background-image: url(../img/favicon.png);
   
    /* Safari 6.0 - 9.0 */
   
@@ -532,10 +532,20 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about {
+.about1 {
   background: #000000;
   -webkit-transform: skew(0deg ,-9deg);
   transform: skew(0deg ,-9deg);
+  border-radius: 0px;
+  background-size: cover;
+  padding: 60px 0;
+  position: relative;
+  color: #fff;
+}
+.about {
+  background: #000000;
+  -webkit-transform: skew(0deg ,0deg);
+  transform: skew(0deg ,0deg);
   border-radius: 0px;
   background-size: cover;
   padding: 60px 0;
@@ -641,7 +651,7 @@ a {
 .card-list {
     display: flex;
     padding: 3rem;
-    overflow-x: scroll;
+    overflow: scroll;
 }
 
 .card-list::-webkit-scrollbar {
@@ -655,7 +665,7 @@ a {
 }
 
 .card-list::-webkit-scrollbar-track {
-    background: linear-gradient(90deg,#201c29,#201c29 1px,#17141d 0,#17141d);
+    background: linear-gradient(0deg,#201c29,#201c29 1px,#17141d 0,#17141d);
 }
 
 
